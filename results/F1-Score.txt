@@ -1,0 +1,14 @@
+Accuracy: 0.9219
+Precision: 0.9227
+Recall: 0.9219
+F1-Score: 0.9221
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+     Animals       0.94      0.92      0.93        37
+urban noises       0.89      0.93      0.91        27
+
+    accuracy                           0.92        64
+   macro avg       0.92      0.92      0.92        64
+weighted avg       0.92      0.92      0.92        64
