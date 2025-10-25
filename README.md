@@ -10,7 +10,7 @@ Sound Classification with Mel Spectrogram &amp; CNN
 
 這些檔案僅供範例使用，完整資料請參考 [ESC-50](https://github.com/karoldvl/ESC-50)。
 ---
-## 🔍 專案動機
+## 專案動機
 
 在本專案之前，曾使用傳統機器學習模型 **Random Forest** 進行分類任務，達成以下測試結果：
 
@@ -24,7 +24,7 @@ Sound Classification with Mel Spectrogram &amp; CNN
 
 ---
 
-## 📂 資料預號與準備
+## 資料預號與準備
 
 - 資料來源：ESC-50 音訊集 (Animals及Urban)
 - 採樣率：44100 Hz
@@ -54,7 +54,7 @@ Sound Classification with Mel Spectrogram &amp; CNN
 
 ---
 
-## 🪰 CNN 模型組成
+## CNN 模型組成
 
 使用 TensorFlow / Keras 簡易 API 實作：
 
@@ -83,7 +83,7 @@ Sound Classification with Mel Spectrogram &amp; CNN
 
 ---
 
-## 📊 訓練效果
+## 訓練效果
 
 ### 訓練曲線
 ![訓練曲線圖](/results/training_history.png)
@@ -93,7 +93,7 @@ Sound Classification with Mel Spectrogram &amp; CNN
 
 ---
 
-## 📊 測試結果
+## 測試結果
 
 ### 混淆矩陣
 ![混淆矩陣](/results/confusion_matrix.png)
@@ -119,7 +119,7 @@ weighted avg       0.92      0.92      0.92        64
 
 ---
 
-## 🚀 未來擴展方向
+## 未來擴展方向
 
 - 對 CNN 組成進行設定調優 (ex. filter 數量, dropout 比例)
 - 增加更多模擬噪音或增強策略
@@ -128,7 +128,7 @@ weighted avg       0.92      0.92      0.92        64
 
 ---
 
-## 📁 系統環境
+## 系統環境
 
 - Python 3.9.13
 - TensorFlow 2.13.0
@@ -139,12 +139,8 @@ weighted avg       0.92      0.92      0.92        64
 
 ---
 
-## 📖 參考資料
+## 參考資料
 
 - [ESC-50 Dataset](https://github.com/karoldvl/ESC-50)
 - [Librosa Documentation](https://librosa.org/)
 - [TensorFlow](https://www.tensorflow.org/)
-
----
-
-> ✨ 本專案用於現職學習 CNN 應用於音訊分類的練習與展示
